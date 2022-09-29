@@ -6,6 +6,7 @@ import Details from '../Details/Details';
 
 const Body = () => {
     const [activities, setActivity] = useState([]);
+    const [details, setDetails] = useState([]);
 
     useEffect(() => {
         fetch('activities.json')
@@ -13,6 +14,10 @@ const Body = () => {
             .then(data => setActivity(data))
     }, [])
 
+    const handleExerciseDetails = (activity) => {
+        const newActivity = [...details, activity]
+        setDetails(newActivity);
+    }
 
     return (
         <div className='body-container'>
@@ -27,13 +32,14 @@ const Body = () => {
                         activities.map(activity => <Activity
                             activity={activity}
                             key={activity.id}
+                            handleExerciseDetails={handleExerciseDetails}
                         >
                         </Activity>)
                     }
                 </div>
             </div>
             <div className='details-container'>
-                <Details></Details>
+                <Details details={details}></Details>
             </div>
         </div >
     );

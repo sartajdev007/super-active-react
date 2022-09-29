@@ -2,7 +2,12 @@ import React from 'react';
 import './Details.css'
 import userImg from '../../images/user.png'
 
-const Details = () => {
+const Details = ({ details }) => {
+    let totalTime = 0;
+    for (const time of details) {
+        totalTime = totalTime + time.time;
+    }
+
     return (
         <div>
             <div className='user'>
@@ -42,8 +47,8 @@ const Details = () => {
             </div>
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
-                <input type="text" placeholder='exercise-time' className='ex-time' />
-                <input type="text" placeholder='break-time' className='br-time' />
+                <h3>Exercise Time: {totalTime}</h3>
+                <h3>Break Time:</h3>
             </div>
         </div>
     );

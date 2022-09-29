@@ -46,7 +46,8 @@
     margin-top: 20px;
 }
 
-.exercise-details input {
+.exercise-details h3 {
     padding: 12px;
     margin-bottom: 10px;
+    border: 1px solid black;
 }
