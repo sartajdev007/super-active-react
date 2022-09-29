@@ -68,6 +68,11 @@ const Body = () => {
                         10m
                     </button>
                 </div>
+                <div className='exercise-details'>
+                    <h2>Exercise Details</h2>
+                    <input type="text" placeholder='exercise-time' className='ex-time' />
+                    <input type="text" placeholder='break-time' className='br-time' />
+                </div>
             </div>
         </div >
     );

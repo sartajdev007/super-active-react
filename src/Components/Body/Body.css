@@ -72,3 +72,12 @@
     background-color: blue;
     color: white;
 }
+
+.exercise-details {
+    margin-top: 20px;
+}
+
+.exercise-details input {
+    padding: 12px;
+    margin-bottom: 10px;
+}
