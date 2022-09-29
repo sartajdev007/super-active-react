@@ -1,11 +1,13 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Details.css'
 import userImg from '../../images/user.png'
 
 const Details = ({ details }) => {
     const [timeBreak, setTimeBreak] = useState(0);
 
-
+    const notify = () => toast('Activity Completed');
 
     let totalTime = 0;
     for (const time of details) {
@@ -53,6 +55,8 @@ const Details = ({ details }) => {
                 <h2>Exercise Details</h2>
                 <h4>Exercise Time: {totalTime} mins</h4>
                 <h4>Break Time: {timeBreak} mins</h4>
+                <button onClick={notify} className='complete-btn'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
