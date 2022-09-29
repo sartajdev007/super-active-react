@@ -1,0 +1,21 @@
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.header img {
+    width: 50px;
+    height: 40px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.title-text {
+    color: rgb(182, 25, 196);
+}
