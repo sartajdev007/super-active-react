@@ -1,14 +1,17 @@
 .body-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
 .header {

@@ -20,7 +20,7 @@ const Body = () => {
                     <img src={logoImage} alt="" />
                     <h1 className='title-text'>Superstar Lifestyle</h1>
                 </div>
-                <h4>Select today's exercise</h4>
+                <h2>Select today's exercise</h2>
                 <div className='cards-container'>
                     {
                         activities.map(activity => <Activity
