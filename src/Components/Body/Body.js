@@ -40,24 +40,36 @@ const Body = () => {
                         <p><small>California,US</small></p>
                     </div>
                 </div>
-                <div>
-                    <div className="user-details">
-                        <div>
-                            <h3>80kg</h3>
-                            <p>Weight</p>
-                        </div>
-                        <div>
-                            <h3>5.8</h3>
-                            <p>Height</p>
-                        </div>
-                        <div>
-                            <h3>22</h3>
-                            <p>Age</p>
-                        </div>
+                <div className="user-details">
+                    <div>
+                        <h3>80kg</h3>
+                        <p>Weight</p>
+                    </div>
+                    <div>
+                        <h3>5.8</h3>
+                        <p>Height</p>
+                    </div>
+                    <div>
+                        <h3>22</h3>
+                        <p>Age</p>
                     </div>
                 </div>
+                <div className='time'>
+                    <button className='minutes'>
+                        1m
+                    </button>
+                    <button className='minutes'>
+                        2m
+                    </button>
+                    <button className='minutes'>
+                        5m
+                    </button>
+                    <button className='minutes'>
+                        10m
+                    </button>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
