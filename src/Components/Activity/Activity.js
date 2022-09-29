@@ -12,6 +12,9 @@ const Activity = (props) => {
                 <h5>For age:{age} years</h5>
                 <h5>Time: {time}</h5>
             </div>
+            <button className='activity-btn'>
+                Add to list
+            </button>
         </div>
     );
 };
