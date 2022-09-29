@@ -3,6 +3,9 @@ import './Details.css'
 import userImg from '../../images/user.png'
 
 const Details = ({ details }) => {
+    const [timeBreak, setTimeBreak] = useState(0);
+
+
     let totalTime = 0;
     for (const time of details) {
         totalTime = parseInt(totalTime + parseInt(time.time));
@@ -32,23 +35,23 @@ const Details = ({ details }) => {
                 </div>
             </div>
             <div className='time'>
-                <button className='minutes'>
+                <button onClick={() => setTimeBreak(1)} className='minutes'>
                     1m
                 </button>
-                <button className='minutes'>
+                <button onClick={() => setTimeBreak(2)} className='minutes'>
                     2m
                 </button>
-                <button className='minutes'>
+                <button onClick={() => setTimeBreak(5)} className='minutes'>
                     5m
                 </button>
-                <button className='minutes'>
+                <button onClick={() => setTimeBreak(10)} className='minutes'>
                     10m
                 </button>
             </div>
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
                 <h4>Exercise Time: {totalTime} mins</h4>
-                <h4>Break Time:</h4>
+                <h4>Break Time: {timeBreak} mins</h4>
             </div>
         </div>
     );
