@@ -28,3 +28,19 @@
 .title-text {
     color: rgb(182, 25, 196);
 }
+
+.user {
+    display: flex;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.user-details {
+    display: flex;
+
+}

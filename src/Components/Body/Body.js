@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Body.css'
 import logoImage from '../../images/bodybuilder.png'
+import userImg from '../../images/user.png'
 import Activity from '../Activity/Activity';
 
 const Body = () => {
@@ -25,13 +26,36 @@ const Body = () => {
                     {
                         activities.map(activity => <Activity
                             activity={activity}
+                            key={activity.id}
                         >
                         </Activity>)
                     }
                 </div>
             </div>
             <div className='details-container'>
-                <h1>My Details :</h1>
+                <div className='user'>
+                    <img src={userImg} alt="" />
+                    <div>
+                        <h3>Sartaj Akik</h3>
+                        <p><small>California,US</small></p>
+                    </div>
+                </div>
+                <div>
+                    <div className="user-details">
+                        <div>
+                            <h3>80kg</h3>
+                            <p>Weight</p>
+                        </div>
+                        <div>
+                            <h3>5.8</h3>
+                            <p>Height</p>
+                        </div>
+                        <div>
+                            <h3>22</h3>
+                            <p>Age</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
