@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Details.css'
 import userImg from '../../images/user.png'
 
 const Details = ({ details }) => {
     let totalTime = 0;
     for (const time of details) {
-        totalTime = totalTime + time.time;
+        totalTime = parseInt(totalTime + parseInt(time.time));
     }
 
     return (
@@ -47,8 +47,8 @@ const Details = ({ details }) => {
             </div>
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
-                <h3>Exercise Time: {totalTime}</h3>
-                <h3>Break Time:</h3>
+                <h4>Exercise Time: {totalTime} mins</h4>
+                <h4>Break Time:</h4>
             </div>
         </div>
     );
