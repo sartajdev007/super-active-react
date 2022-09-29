@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
 .header {
     display: flex;
 }
