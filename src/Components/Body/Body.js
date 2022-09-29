@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Body.css'
 import logoImage from '../../images/bodybuilder.png'
+import Activity from '../Activity/Activity';
 
 const Body = () => {
     const [activities, setActivity] = useState([]);
@@ -22,7 +23,10 @@ const Body = () => {
                 <h4>Select today's exercise</h4>
                 <div className='cards-container'>
                     {
-                        activities.map(activity => console.log(activity))
+                        activities.map(activity => <Activity
+                            activity={activity}
+                        >
+                        </Activity>)
                     }
                 </div>
             </div>

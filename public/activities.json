@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Walking",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "30 mins",
         "img": "https://images.pexels.com/photos/670786/pexels-photo-670786.jpeg?cs=srgb&dl=pexels-lukas-rychvalsky-670786.jpg&fm=jpg",
         "description": "Walking can offer numerous health benefits to people of all ages and fitness levels. It may also help prevent certain diseases and even prolong your life.Walking is free to do and easy to fit into your daily routine. All you need to start walking is a sturdy pair of walking shoes."
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Running",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "30 mins",
         "img": "https://images.unsplash.com/photo-1594882645126-14020914d58d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cnVubmluZ3xlbnwwfHwwfHw%3D&w=1000&q=80",
         "description": "The sport of running doesn’t have an avid fan base of millions of dedicated runners for no reason — once you get started with running and work past the initial discomfort, running has some amazing benefits that improve your physical and mental health and well-being."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Push-Up",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "4 mins",
         "img": "https://images.pexels.com/photos/176782/pexels-photo-176782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "Pushups are a fast and effective exercise for building strength. They can be done from virtually anywhere and don’t require any equipment. Doing pushups every day can be effective if you’re looking for a consistent exercise routine to follow. You will likely notice gains in upper body strength if you do pushups regularly."
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "TreadMill",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "20 mins",
         "img": "https://images.pexels.com/photos/6455851/pexels-photo-6455851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "A treadmill reduces impact better than the street or other outdoor surfaces when it comes to running. Every time you take a step while running on the pavement, dirt, or even hard surfaces, your legs take a lot of impacts, especially when you go fast."
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Planks",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "1 mins",
         "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "Planking provides many physical benefits. Strengthening the core is an important aspect of any workout regimen. A strong and solid core looks and feels good. But more importantly, it helps to stabilize, balance, and power the body during just about every other activity."
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Squats",
-        "age": "25-30 years",
+        "age": "25-30",
         "time": "5 mins",
         "img": "https://images.pexels.com/photos/1552250/pexels-photo-1552250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "Doing squats can not only help you perform athletically, but it also strengthens your body for everyday tasks like walking, carrying heavy items, and climbing stairs. The benefits range from helping to prevent injury to improving your performance during other exercises."
