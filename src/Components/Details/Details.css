@@ -1,0 +1,52 @@
+.user {
+    display: flex;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.user-details {
+    display: flex;
+    gap: 25px;
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: rgb(6, 61, 43);
+    color: white;
+    margin-top: 20px;
+}
+
+.time {
+    display: flex;
+    gap: 5px;
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: rgb(6, 61, 43);
+    color: white;
+    margin-top: 20px;
+}
+
+.minutes {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.minutes:hover {
+    background-color: blue;
+    color: white;
+}
+
+.exercise-details {
+    margin-top: 20px;
+}
+
+.exercise-details input {
+    padding: 12px;
+    margin-bottom: 10px;
+}
