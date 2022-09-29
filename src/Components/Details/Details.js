@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 import './Details.css'
 import userImg from '../../images/user.png'
 
 const Details = ({ details }) => {
     const [timeBreak, setTimeBreak] = useState(0);
+
 
 
     let totalTime = 0;
